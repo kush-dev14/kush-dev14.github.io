@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Layout } from "@/components/Layout";
-import { Mail, Phone, Linkedin, ArrowUpRight } from "lucide-react";
+import { Mail, Phone, Linkedin, Github, ArrowUpRight } from "lucide-react";
 
 export const Route = createFileRoute("/contact")({
   head: () => ({
@@ -18,6 +18,7 @@ const channels = [
   { icon: Mail, label: "Email", value: "rockkush7@gmail.com", href: "mailto:rockkush7@gmail.com" },
   { icon: Phone, label: "Phone", value: "+91 80067 01114", href: "tel:+918006701114" },
   { icon: Linkedin, label: "LinkedIn", value: "ankush-kumar-7855aab2", href: "https://linkedin.com/in/ankush-kumar-7855aab2/" },
+  { icon: Github, label: "GitHub", value: "kush-dev14", href: "https://github.com/kush-dev14" },
 ];
 
 function ContactPage() {
