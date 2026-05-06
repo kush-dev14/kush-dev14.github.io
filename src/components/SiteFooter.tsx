@@ -1,4 +1,4 @@
-import { Mail, Linkedin, Phone } from "lucide-react";
+import { Mail, Linkedin, Phone, Github } from "lucide-react";
 
 export function SiteFooter() {
   return (
@@ -14,6 +14,9 @@ export function SiteFooter() {
           </a>
           <a href="https://linkedin.com/in/ankush-kumar-7855aab2/" target="_blank" rel="noreferrer" aria-label="LinkedIn" className="p-2 rounded-md hover:bg-secondary text-muted-foreground hover:text-primary transition-colors">
             <Linkedin className="h-5 w-5" />
+          </a>
+          <a href="https://github.com/kush-dev14" target="_blank" rel="noreferrer" aria-label="GitHub" className="p-2 rounded-md hover:bg-secondary text-muted-foreground hover:text-primary transition-colors">
+            <Github className="h-5 w-5" />
           </a>
           <a href="tel:+918006701114" aria-label="Phone" className="p-2 rounded-md hover:bg-secondary text-muted-foreground hover:text-primary transition-colors">
             <Phone className="h-5 w-5" />
