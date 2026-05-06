@@ -3,7 +3,7 @@ import { Mail, Linkedin, Phone, Github } from "lucide-react";
 export function SiteFooter() {
   return (
     <footer className="border-t border-border mt-24">
-      <div className="mx-auto max-w-6xl px-6 py-12 flex flex-col md:flex-row items-center justify-between gap-6">
+      <div className="w-full px-6 lg:px-12 py-12 flex flex-col md:flex-row items-center justify-between gap-6">
         <div>
           <p className="font-display text-lg">Ankush Kumar</p>
           <p className="text-sm text-muted-foreground mt-1">Ruby on Rails Developer · Crafting reliable backends.</p>

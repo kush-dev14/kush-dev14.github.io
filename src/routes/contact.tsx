@@ -24,7 +24,7 @@ const channels = [
 function ContactPage() {
   return (
     <Layout>
-      <section className="mx-auto max-w-4xl px-6 pt-20 pb-12">
+      <section className="w-full px-6 lg:px-12 pt-20 pb-12">
         <p className="font-mono text-xs uppercase tracking-[0.3em] text-primary mb-6">Contact</p>
         <h1 className="font-display text-5xl md:text-7xl font-semibold leading-[0.95]">
           Let's build something <em className="text-primary not-italic">great</em>.
@@ -34,7 +34,7 @@ function ContactPage() {
         </p>
       </section>
 
-      <section className="mx-auto max-w-4xl px-6 pb-20 space-y-3">
+      <section className="w-full px-6 lg:px-12 pb-20 space-y-3">
         {channels.map((c) => (
           <a
             key={c.label}
