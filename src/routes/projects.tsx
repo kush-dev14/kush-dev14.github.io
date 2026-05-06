@@ -37,7 +37,7 @@ const projects = [
 function ProjectsPage() {
   return (
     <Layout>
-      <section className="mx-auto max-w-6xl px-6 pt-20 pb-12">
+      <section className="w-full px-6 lg:px-12 pt-20 pb-12">
         <p className="font-mono text-xs uppercase tracking-[0.3em] text-primary mb-6">Projects</p>
         <h1 className="font-display text-5xl md:text-6xl font-semibold leading-tight max-w-3xl">
           Things I've shipped.
@@ -45,7 +45,7 @@ function ProjectsPage() {
         <p className="mt-6 text-lg text-muted-foreground max-w-2xl">A selection of backend systems and APIs built across multiple domains.</p>
       </section>
 
-      <section className="mx-auto max-w-6xl px-6 pb-20 space-y-6">
+      <section className="w-full px-6 lg:px-12 pb-20 space-y-6">
         {projects.map((p, i) => (
           <article key={p.name} className="group relative overflow-hidden rounded-2xl bg-card border border-border p-8 md:p-12 hover:border-primary/40 transition-all">
             <div className="grid md:grid-cols-12 gap-8">

@@ -27,13 +27,13 @@ const groups = [
 function SkillsPage() {
   return (
     <Layout>
-      <section className="mx-auto max-w-6xl px-6 pt-20 pb-12">
+      <section className="w-full px-6 lg:px-12 pt-20 pb-12">
         <p className="font-mono text-xs uppercase tracking-[0.3em] text-primary mb-6">Skills</p>
         <h1 className="font-display text-5xl md:text-6xl font-semibold leading-tight max-w-3xl">
           The tools of the trade.
         </h1>
       </section>
-      <section className="mx-auto max-w-6xl px-6 pb-20">
+      <section className="w-full px-6 lg:px-12 pb-20">
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
           {groups.map((g) => (
             <div key={g.title} className="p-6 rounded-xl bg-card border border-border">

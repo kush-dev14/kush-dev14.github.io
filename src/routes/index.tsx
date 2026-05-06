@@ -23,7 +23,7 @@ function Index() {
           <img src={heroImg} alt="" width={1280} height={1280} className="w-full h-full object-cover object-right" />
           <div className="absolute inset-0" style={{ background: "linear-gradient(90deg, var(--background) 30%, transparent 80%)" }} />
         </div>
-        <div className="mx-auto max-w-6xl px-6 pt-24 pb-32 md:pt-36 md:pb-44">
+        <div className="w-full px-6 lg:px-12 pt-24 pb-32 md:pt-36 md:pb-44">
           <p className="font-mono text-xs uppercase tracking-[0.3em] text-primary mb-6">Ruby on Rails Developer</p>
           <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-semibold leading-[0.95] max-w-4xl">
             Building <em className="text-primary not-italic">reliable</em> backends with craft & care.
@@ -42,7 +42,7 @@ function Index() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-6xl px-6 py-20">
+      <section className="w-full px-6 lg:px-12 py-20">
         <div className="grid md:grid-cols-3 gap-6">
           {[
             { icon: Server, title: "Backend Systems", desc: "Scalable Rails apps, background jobs, and service architecture." },
@@ -58,7 +58,7 @@ function Index() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-6xl px-6 py-20 border-t border-border">
+      <section className="w-full px-6 lg:px-12 py-20 border-t border-border">
         <div className="grid md:grid-cols-4 gap-8">
           {[
             { n: "4.8+", l: "Years experience" },
