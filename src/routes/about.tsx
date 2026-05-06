@@ -17,7 +17,7 @@ export const Route = createFileRoute("/about")({
 function AboutPage() {
   return (
     <Layout>
-      <section className="mx-auto max-w-4xl px-6 pt-20 pb-12">
+      <section className="w-full px-6 lg:px-12 pt-20 pb-12">
         <p className="font-mono text-xs uppercase tracking-[0.3em] text-primary mb-6">About</p>
         <h1 className="font-display text-5xl md:text-6xl font-semibold leading-tight">
           A developer driven by craft, curiosity, and clean code.
@@ -35,7 +35,7 @@ function AboutPage() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-4xl px-6 py-12">
+      <section className="w-full px-6 lg:px-12 py-12">
         <h2 className="font-display text-3xl mb-8 flex items-center gap-3"><Briefcase className="h-6 w-6 text-primary" /> Experience</h2>
         <div className="rounded-xl bg-card border border-border p-8">
           <div className="flex flex-wrap items-baseline justify-between gap-2">
@@ -52,7 +52,7 @@ function AboutPage() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-4xl px-6 py-12">
+      <section className="w-full px-6 lg:px-12 py-12">
         <h2 className="font-display text-3xl mb-8 flex items-center gap-3"><GraduationCap className="h-6 w-6 text-primary" /> Education</h2>
         <div className="space-y-3">
           {[
@@ -71,7 +71,7 @@ function AboutPage() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-4xl px-6 py-12">
+      <section className="w-full px-6 lg:px-12 py-12">
         <h2 className="font-display text-3xl mb-8 flex items-center gap-3"><Award className="h-6 w-6 text-primary" /> Achievements</h2>
         <div className="grid md:grid-cols-3 gap-4">
           {[
