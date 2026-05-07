@@ -10,13 +10,10 @@
     "dev": "vite dev",
     "build": "vite build",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "format": "prettier --write ."
   },
-  "homepage": "https://kush-dev14.github.io",
   "dependencies": {
     "@cloudflare/vite-plugin": "^1.25.5",
     "@hookform/resolvers": "^5.2.2",
